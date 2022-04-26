@@ -22,7 +22,7 @@ class Bird: Codable {
     
     private enum CodingKeys: String, CodingKey {
         case name, description, imageUrl
-    }
+    } 
     
     init(named name: String, description: String, imageUrl: String) {
         self.name = name
